@@ -25,8 +25,8 @@ section{
     padding-right: 15px;
 }
 .header {
- padding-top: 15px;
- padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .container-header {
     width: 1280px;
@@ -53,7 +53,10 @@ section{
 }
 .banner{
     background: #74C281;
-
+    background-image: url(/media/banner-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .banner-content{
     display: flex;
@@ -82,10 +85,31 @@ section{
     margin-top: 60px;
 }
 .banner-button{
-width: 223px;
-height: 49px;
-padding: 16px, 28px, 16px, 28px;
-border-radius: 20px;
-gap: 10px;
-background: transparent;
+    width: 223px;
+    height: 49px;
+    padding: 16px, 28px, 16px, 28px;
+    border-radius: 20px;
+    gap: 10px;
+    background: transparent;
+}
+.banner-image{
+    margin-left: 300px;
+}
+.quote-container{
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+.quote-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote-text-content{
+    width: 587px;
+}
+.quote-image{
+    width: 446px;
+    height: 521px;
+    border-radius: 30px;
+
 }
