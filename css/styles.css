@@ -111,5 +111,50 @@ section{
     width: 446px;
     height: 521px;
     border-radius: 30px;
+}
+.courses-container{
+    padding-top: 80px;
+}
+.title-introduction{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.title-introduction h2 {
+    width: 550px;
+}
+.title-introduction p {
+    width: 585px;
+   
+}
+.courses-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.courses-list-member {
+    display: flex;
+    flex-direction: column;
+    width: 281px; 
+    height: 308px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #001F0A;
+    border-radius: 35px;
+}
 
+.courses-list-member:nth-child(n+5) {
+    width: 281px;
+    height: 308px;
+}
+.courses-list-member-icon{
+
+}
+.courses-list-member-title{
+    width: 216px;
+}
+.courses-list-member button{
+    
 }
