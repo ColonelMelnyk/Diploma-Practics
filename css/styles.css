@@ -96,7 +96,7 @@ section{
 .banner-image{
     margin-left: 250px;
 }
-.quote-container{
+.quote{
     padding-top: 114px;
     padding-bottom: 114px;
 }
@@ -113,8 +113,9 @@ section{
     height: 521px;
     border-radius: 30px;
 }
-.courses-container{
-    padding-top: 80px;
+.courses{
+    padding-top: 86px;
+    padding-bottom: 86px;
 }
 .title-introduction{
     display: flex;
@@ -143,11 +144,11 @@ section{
     height: 308px;
 }
 .courses-list-member-title{
-    margin-top: 10%;
+    margin-top: 25%;
     height: 62px;
 }
 .courses-list-member-button{
-    margin-top: 30%;
+    margin-top: 19%;
     background-color: transparent;
     border-radius: 20px;
     padding: 16px 32px;
@@ -160,12 +161,59 @@ section{
     margin-top: 0px;
 }
 .intensive-title{
-    margin-top: 50%;
+    margin-top: 43%;
 }
 .intensive-button{
-    margin-top: 10%;
+    margin-top: 18%;
     background-color: transparent;
     border-radius: 20px;
     padding: 16px 32px;
     border: none;
+}
+.banner-second-subtitle{
+ margin-bottom: 20px;
+}
+.banner-second-title{
+    margin-bottom: 20px;
+}
+.second-banner-button-list{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.second-banner-button{
+    padding: 8px 12px;
+    border-radius: 19px;
+    border: 1px solid #001F0A;
+    background-color: transparent;
+    width: 268px;
+}
+.plus{
+    width: auto;
+}
+
+.second-banner{
+    background: #74C281;
+    background-image: url(/media/banner-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.second-banner-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.third-banner-button{
+    width: 223px;
+    height: 49px;
+    padding: 16px 28px;
+    border-radius: 20px;
+    border: 1px solid #001F0A;
+    background: #001F0A;
+    color: #FFFFFF;
 }
