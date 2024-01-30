@@ -15,6 +15,9 @@ h1,h2,h3,h4,h5,h6, ul, li, p {
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 section{
     display: block;
 }
@@ -262,6 +265,10 @@ section{
 .green-block-list{
     column-count: 2;
 }
+.questions-answers{
+    padding-top: 48px;
+    padding-bottom: 96px;
+}
 .questions-content{
     display: flex;
     flex-direction: column;
@@ -280,4 +287,55 @@ width: 625px;
     color: #FFFFFF;
     background-color: #001F0A;
     border: 1px solid #001F0A;
+}
+.footer{
+    background-color: #001F0A;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-section{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.footer-logo-text{
+    color: #FFFFFF;
+}
+.copyright-text{
+    color: #FFFFFF;
+    max-width: 255px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   justify-content: center;
+}
+.footer-list li a{
+    color: #FFFFFF;
+}
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center; 
+    color: #FFFFFF;
+}
+.offer-proposal{
+    color: #FFFFFF;
+    display: flex;
+    gap: 5px;
+}
+.offer-proposal svg{
+ margin-top: 6px;
 }
